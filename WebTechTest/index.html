@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Registration Form</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+
+        <h2>Student Registration</h2>
+
+        <form action="#" method="post" id="registrationForm">
+
+            <!-- Full Name -->
+            <label for="fullname">Full Name</label>
+            <input
+                type="text"
+                id="fullname"
+                name="fullname"
+                placeholder="Enter your name"
+                maxlength="40"
+                required
+            >
+
+            <!-- Email -->
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="my@gmail.com"
+                required
+            >
+
+            <!-- Password -->
+            <label for="password">Password</label>
+            <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter password"
+                minlength="6"
+                required
+            >
+
+            <!-- Gender -->
+            <label>Gender</label>
+
+            <div class="gender-group">
+                <input
+                    type="radio"
+                    id="male"
+                    name="gender"
+                    value="Male"
+                    required
+                >
+                <label for="male">Male</label>
+
+                <input
+                    type="radio"
+                    id="female"
+                    name="gender"
+                    value="Female"
+                >
+                <label for="female">Female</label>
+            </div>
+
+            <!-- Course -->
+            <label for="course">Course</label>
+
+            <select id="course" name="course" required>
+                <option value="">Select Course</option>
+                <option value="BCA">BCA</option>
+                <option value="BSc IT">BSc IT</option>
+                <option value="BBA">BBA</option>
+                <option value="B.Com">B.Com</option>
+                <option value="B.Sc Computer Science">B.Sc Computer Science</option>
+                <option value="B.Tech CSE">B.Tech CSE</option>
+                <option value="B.Tech IT">B.Tech IT</option>
+                <option value="MCA">MCA</option>
+                <option value="MBA">MBA</option>
+            </select>
+
+            <!-- Message -->
+            <label for="message">Message</label>
+
+            <textarea
+                id="message"
+                name="message"
+                rows="4"
+                cols="30"
+                placeholder="Enter your message"
+            ></textarea>
+
+            <!-- YouTube Video Link -->
+            <a
+                href="https://www.youtube.com/watch?v=e0qDXeVNHgc"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="video-link"
+            >
+                ▶ How to fill this form? Watch video
+            </a>
+
+            <!-- Buttons -->
+            <div class="button-group">
+
+                <button type="submit" class="submit-btn">
+                    Submit
+                </button>
+
+                <button type="reset" class="reset-btn">
+                    Reset
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

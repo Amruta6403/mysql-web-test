@@ -1,0 +1,131 @@
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8eaff;
+    margin: 0;
+    padding: 30px 15px;
+}
+
+/* Form Container */
+.form-container {
+    width: 380px;
+    max-width: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    color: #333366;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+/* Input Fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Focus Effect */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: #5555cc;
+    box-shadow: 0 0 5px rgba(85, 85, 204, 0.4);
+}
+
+/* Gender */
+.gender-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.gender-group input {
+    margin: 0;
+}
+
+.gender-group label {
+    margin: 0 8px 0 0;
+    font-weight: normal;
+}
+
+/* Textarea */
+textarea {
+    resize: vertical;
+}
+
+/* Video Link */
+.video-link {
+    display: block;
+    margin: 10px 0 18px;
+    color: #333399;
+    font-size: 13px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.video-link:hover {
+    text-decoration: underline;
+    color: #16166b;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+/* Common Button Styling */
+button {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #159447;
+}
+
+.submit-btn:hover {
+    background-color: #0d7134;
+}
+
+/* Reset Button */
+.reset-btn {
+    background-color: #dc3545;
+}
+
+.reset-btn:hover {
+    background-color: #a71d2a;
+}
